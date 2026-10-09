@@ -1,0 +1,8 @@
+# Only the replica tooling is tracked. Everything else under Artisian/ is
+# Artisan's site content (HTTrack mirror, recorded archive) and stays local.
+/Artisian/Artisian/*
+!/Artisian/Artisian/replica/
+/Artisian/Artisian/replica/archive/
+/Artisian/Artisian/replica/screenshots/
+/Artisian/Artisian/replica/*.log
+node_modules/

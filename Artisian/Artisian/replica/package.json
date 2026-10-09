@@ -1,0 +1,18 @@
+{
+  "name": "artisan-replica",
+  "version": "1.0.0",
+  "description": "Local record/replay copy of artisan.co for design reference",
+  "scripts": {
+    "start": "node server.js",
+    "capture": "node capture.js",
+    "verify": "node verify.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "puppeteer-core": "^23.11.1"
+  },
+  "private": true
+}
